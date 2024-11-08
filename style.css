@@ -17,6 +17,11 @@ ul {
   list-style: none;
 }
 
+.error{
+  text-align: center;
+  padding: 100px;
+}
+
 /* Footer  */
 
 footer {
