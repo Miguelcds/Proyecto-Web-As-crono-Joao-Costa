@@ -12,13 +12,23 @@ const footer = document.querySelector("footer");
 footer.innerHTML = Footer();
 
 const buildPage = async (busqueda) => {
+  try{
   const data = await fetch(
     `https://api.unsplash.com/search/photos?query=${busqueda}&per_page=21&orientation=squarish&client_id=9ZTYaTHYYbWrLsJ1o6MagjlViJ1RfNNUKbVxJasOx7I`
   );
   const res = await data.json();
   const photos = res.results;
   printPhotos(photos);
-};
+}  catch(error){
+  document.body.innerHTML = `
+  <h2 class= "error"> Page under maintenance, sorry for the inconvenience!</h2>
+  `
+}
+
+} 
+
+
+
 
 const printPhotos = (photos) => {
   const ul = document.querySelector("#result");
