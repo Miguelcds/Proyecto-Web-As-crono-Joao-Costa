@@ -7,7 +7,7 @@ export const Main = () => `
 </section>
 `;
 
-const acces = `https://api.unsplash.com/search/photos?query=gatos&per_page=20&client_id=9ZTYaTHYYbWrLsJ1o6MagjlViJ1RfNNUKbVxJasOx7I`
+// const acces = `https://api.unsplash.com/search/photos?query=gatos&per_page=20&client_id=9ZTYaTHYYbWrLsJ1o6MagjlViJ1RfNNUKbVxJasOx7I`
 
 
 
