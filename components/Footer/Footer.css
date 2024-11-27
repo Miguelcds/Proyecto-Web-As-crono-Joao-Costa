@@ -1,2 +1,20 @@
+footer {
+    text-align: center;
+    padding: 5px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    background: rgb(238, 174, 202);
+  background: radial-gradient(
+    circle,
+    rgba(238, 174, 202, 1) 0%,
+    rgba(106, 223, 0, 0.12088585434173671) 100%
+  );
+  
+  }
 
-
+  @media (min-width: 400px) {
+      footer{
+        position: fixed;
+      }
+  }

@@ -71,3 +71,28 @@ button {
   -webkit-transform: rotate(360deg);
   transform: rotate(360deg);
 }
+
+@media (max-width: 800px ) {
+    nav{
+      display: flex;
+      flex-direction: column;
+      margin-bottom: 10px;
+      margin-top: 10px;
+
+    }
+
+    .divInput{
+      margin: 20px;
+      text-align: center;
+    }
+
+    .divInput > input{
+
+      padding: 10px;
+      margin: 10px;
+
+    }
+
+
+
+}

@@ -8,13 +8,14 @@ export const  Header = () => `
 </div>
       <nav>
         <a href="#">Inicio</a>
+        <a href="#"> Contacto</a>
 
-        <div>
+        <div class="divInput">
           <input type="text" id="searchInput" placeholder="Que buscas..."/>
           <button id="searchBtn"> Buscar </button>
         </div>
 
-        <a href="#"> Contacto</a>
+        
 
       </nav>
 `
